@@ -19,6 +19,9 @@ app.get('/about',function(req,res){
 app.get('/faculty',function(req,res){
 	res.render("faculty");
 })
+app.get('/admissions',function(req,res){
+	res.render("admissions");
+})
 
 
 exports.app = functions.https.onRequest(app);
