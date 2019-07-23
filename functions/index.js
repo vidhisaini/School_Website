@@ -13,8 +13,8 @@ app.get('/',function(req,res){
 app.get('/courses',function(req,res){
 	res.render("courses");
 })
-app.get('/contact',function(req,res){
-	res.render("contact");
+app.get('/about',function(req,res){
+	res.render("about");
 })
 app.get('/faculty',function(req,res){
 	res.render("faculty");
